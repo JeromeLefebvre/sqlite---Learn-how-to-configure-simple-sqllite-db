@@ -1,1 +1,0 @@
-SELECT name AS column_name, TYPE AS data_type, CASE "notnull" WHEN 1 THEN 'NO' ELSE 'YES' END AS is_nullable, dflt_value as column_default, name AS foreign_key FROM pragma_table_xinfo ("画像");

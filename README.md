@@ -85,3 +85,9 @@ delete from 画像 where 漢字 like '%';
 .mode csv
 .import "/Users/jeromelefebvre/GitHub/sqlite---Learn-how-to-configure-simple-sqllite-db/Basic counters2.csv" 画像
 ```
+
+## run a script
+
+```
+sqlite3 test.sqlite3 < create\ and\ populate.db
+```
