@@ -1,0 +1,10 @@
+CREATE TABLE "助数詞" (
+    "漢字" varchar NOT NULL DEFAULT '',
+    "読み方" varchar NOT NULL DEFAULT '',
+    "使い分け" varchar NOT NULL DEFAULT '',
+    PRIMARY KEY (漢字)
+);
+
+.mode csv
+.import "prod\ csv/Basic counters.csv" 助数詞
+
